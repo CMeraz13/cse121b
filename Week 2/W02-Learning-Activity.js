@@ -2,44 +2,41 @@
 
 // Adding two numbers together
 
-x = 7;
-y = 13;
+let x = 7;
+let y = 13;
 
-z = x+y;
+let z = x + y;
 console.log(z);
 
 // Multipy two numbers together
 
-z = x*y;
-
+z = x *y ;
 console.log(z);
 
 // Subtracting two numbers from each other
 
-z = y-x;
+z = y - x;
 console.log(z);
 
 // Using Strings to create a sentence
 
-w1 = "Welcome ";
-w2 = "User!";
-
+let w1 = "Welcome ";
+let w2 = "User!";
 w1 += w2;
 console.log(w1);
 
 // Assigning variable
 
-var e = 6;
+let e = 6;
 
 // Incrementing a variable by three
-var q = e;
+let q = e;
 q += 3;
-
 console.log(q);
 
 // Comparing Values
 
-if(x == e){
+if(x === e){
     comparison_equal_true = "They are the same!";
     console.log(comparison_equal_true);
 } else {
@@ -59,7 +56,7 @@ if(q < y){
 
 // Checking if two numbers are NOT equal
 
-if(z != e){
+if(z !== e){
     comparison_not_equal_true = "Variable " + z + " is not equal to Variable " + e;
     console.log(comparison_not_equal_true);
 } else {
