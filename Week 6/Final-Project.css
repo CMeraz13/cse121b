@@ -1,8 +1,4 @@
 
-body{
-    background-color: #444;
-    color: white;
-}
 
 h1, h2 {
     text-align: center;
@@ -12,10 +8,54 @@ h1 {
     border-bottom: 1px solid #ccc;
 }
 
-footer{
+body {
+    background-color: #444;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+#characters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+    justify-content: center;
+}
+
+#Space{
+    padding: 30px;
+}
+.grid-character {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.grid-character {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-template-rows: repeat(3, auto); /* 3 rows with automatic height */
+    gap: 20px;
+}
+.grid-character article {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 10px;
+    text-align: center;
+}
+
+img {
+    width: 400px; /* Set the width of the image to one-fifth of its original size */
+    height: 400px; /* Allow the height to adjust proportionally */
+}
+
+footer {
     background-color: #1f1f1f;
     color: white;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     width: 100%;
     position: fixed;

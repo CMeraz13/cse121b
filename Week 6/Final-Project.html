@@ -10,9 +10,37 @@
         <main id="gridly">
             <h1>Welcome to Character Creation!</h1>
             <h2>Here we have a few default Characters for you to choose! Or you can create your own!</h2>
-            <div id = "characters">
-            </div>
+            
         </main>
+        <div id ="characters"></div>
+        <div id ="gridCharacter"></div>
+
+        <h1>Create your own Character!</h1>
+        <div>
+            <label for="strength">Strength:</label>
+            <input type="number" id="strength">
+        </div>
+        <div>
+            <label for="dexterity">Dexterity:</label>
+            <input type="number" id="dexterity">
+        </div>
+        <div>
+            <label for="endurance">Endurance:</label>
+            <input type="number" id="endurance">
+        </div>
+        <div>
+            <label for="magic">Magic:</label>
+            <input type="number" id="magic">
+        </div>
+        <div>
+            <label for="mana">Mana:</label>
+            <input type="number" id="mana">
+        </div>
+        <button onclick="calculateStats()">Calculate Stats</button>
+        
+        <div id="statsResults"></div>
+
+        <div id="Space"></div>
     </body>
     <footer>
         <span></span> | Week 6 - Final Project | CSE 121B
