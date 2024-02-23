@@ -11,15 +11,18 @@ function convertPointsToStatus(pointTotal) {
   return status;
 }
 
+
 const statusReport = points.map(convertPointsToStatus);
 console.log(statusReport)
 
+*/
+/*
 const countries = ["Canada", "Chili", "Colombia", "Croatia", "Costa Rica"];
 const countriesLong = countries.filter( country => country.length >= 7);
 console.log(countriesLong)
-
 */
 
+/*
 windSpeed = 5;
 temperature = 18;
 
@@ -31,3 +34,5 @@ const computeWindChill = function(windSpeed, temperature) {
 
 
 computeWindChill(speed, temp);
+
+*/
